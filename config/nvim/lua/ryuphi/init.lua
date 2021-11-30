@@ -1,0 +1,5 @@
+require('ryuphi/telescope')
+require('ryuphi/gitsigns')
+require('ryuphi/lsp')
+require('ryuphi/treesitter')
+require('ryuphi/autopairs')
