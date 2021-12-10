@@ -127,3 +127,18 @@ lsp.tsserver.setup{
       "typescript.tsx",
     },
 }
+
+
+lsp.gopls.setup {
+    capabilities = capabilities,
+    on_attach = on_attach,
+    cmd = {"gopls", "serve"},
+    settings = {
+        gopls = {
+        analyses = {
+          unusedparams = true,
+        },
+        staticcheck = true,
+      },
+    },
+}
