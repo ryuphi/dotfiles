@@ -87,7 +87,7 @@ Plug 'octaltree/cmp-look'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 
-
+" airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -104,6 +104,10 @@ let g:airline#extensions#tabline#left_alt_sep = ' '
 
 set noshowmode
 
+" lsp colors
+Plug 'folke/lsp-colors.nvim'
+
+" nvim-autopairs
 Plug 'windwp/nvim-autopairs'
 
 call plug#end()
