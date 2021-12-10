@@ -1,0 +1,6 @@
+[user]
+    name = Marcos Corona Ávalos
+    email = mcorona.avalos02@gmail.com
+[core]
+    editor = nvim
+    excludesfile = ~/.gitignore_global
